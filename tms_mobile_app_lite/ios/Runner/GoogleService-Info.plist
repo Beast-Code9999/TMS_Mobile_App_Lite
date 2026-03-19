@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAo3pEAVhmJ2xY0tPZHNcgf_cw_eMVBfAQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>746404515207</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.tmsMobileAppLite</string>
+	<key>PROJECT_ID</key>
+	<string>tms-mobile-app-lite</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tms-mobile-app-lite.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:746404515207:ios:de77591420c9e6febad722</string>
+</dict>
+</plist>
