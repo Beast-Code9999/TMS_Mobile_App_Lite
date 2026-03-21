@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:tms_mobile_app_lite/firebase_options.dart';
+import 'package:tms_mobile_app_lite/screens/auth_gate.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,6 +16,9 @@ class TmsMobileAppLite extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      title: "TMS Mobile App",
+      home: AuthGate(),
+    );
   }
 }
