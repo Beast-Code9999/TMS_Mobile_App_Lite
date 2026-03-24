@@ -9,13 +9,17 @@ class ApiService {
   static Future<Map<String, dynamic>> login(String username, String password) async {
     final response = await http.post(
       Uri.parse('$baseUrl/users/login/'),
+      // tells django sent data are JSON data 
       headers: {'Content-Type': 'application/json'},
+      // sends data to backend
       body: jsonEncode({'username': username, 'password': password}),
     );
 
     if (response.statusCode == 200) {
+      // if successful, convert JSON to dart map
       return jsonDecode(response.body);
     } else {
+      // else throw an exception
       throw Exception('Login failed');
     }
   }
